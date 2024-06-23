@@ -124,7 +124,7 @@ const NewsBoard = ({ category }) => {
   const [totalPages, setTotalPages] = useState(1);
   const [searchQuery, setSearchQuery] = useState('');
   const pageSize = 9;
-  const apiKey = process.env.NEXT_PUBLIC_API_KEY;
+  const apiKey = '08c13c91584b459f954d27961e65ea9a';
 
   useEffect(() => {
     console.log('API Key:', apiKey); // Debugging: Log the API key
